@@ -1,0 +1,22 @@
+name: dll
+channels:
+  - pytorch-nightly
+  - defaults
+dependencies:
+  - python=3.10.*
+  - matplotlib
+  - seaborn
+  - numpy
+  - scipy
+  - torchvision
+  - torchtext
+  - nltk
+  - pytorch
+  - pandas
+  - jupyter
+  - scikit-learn
+  - pip
+  - pip:
+    - wandb
+    - einops
+    - fastprogress
